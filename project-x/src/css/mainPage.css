@@ -1,0 +1,28 @@
+.wrapper {
+    width: 50%;
+}
+
+.relative input[type="text"] {
+    background: rgba(0, 0, 0, 0.5);
+    outline: none;
+    padding-left: 50px;
+    padding-right:100px;
+    width: 100%;
+    color: #fff;
+}
+
+.relative [type="submit"] {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-45%);
+    right: 25px;
+    color: #fff;
+}
+
+::-webkit-input-placeholder{
+    color: #fff;
+}
+
+::-moz-placeholder{
+    color: #fff;
+}
