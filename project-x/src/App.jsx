@@ -1,9 +1,11 @@
+
 import React from 'react';
 import { BrowserRouter as Router, Route, Link, Routes } from 'react-router-dom';
 import Contact from './components/Contact';
 import HomePage from './components/HomePage';
 import About from './components/About';
 import NavBar from './components/NavBar';
+
 
 function App() { 
   
@@ -24,4 +26,4 @@ function App() {
   )
 }
 
-export default App
+export default App;
