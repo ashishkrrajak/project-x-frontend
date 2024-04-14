@@ -5,6 +5,8 @@ import Contact from './components/Contact';
 import HomePage from './components/HomePage';
 import About from './components/About';
 import NavBar from './components/NavBar';
+import 'bootstrap/dist/css/bootstrap.min.css';
+import 'bootstrap/dist/js/bootstrap.js';
 
 
 function App() { 
