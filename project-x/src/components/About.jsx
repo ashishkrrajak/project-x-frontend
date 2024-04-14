@@ -1,21 +1,11 @@
 import React from "react";
 import "../css/About.css"; 
-import ashishImg from '../static/img/ashish.jpeg'
-import adityImg from '../static/img/adity.jpg'
-import rituImg from '../static/img/ritu.jpg'
+import imgA from '../static/img/img_ar.jpeg'
+import imgB from '../static/img/img_as.jpg'
+import imgC from '../static/img/img_rd.jpg'
 
 function About() {
-  const ashishStyle = {
-    backgroundImage: `url(${ashishImg})`,
-  };
 
-  const adityStyle = {
-    backgroundImage: `url(${adityImg})`,
-  };
-
-  const rituStyle = {
-    backgroundImage: `url(${rituImg})`,
-  };
 
   return (
     <div>
@@ -30,10 +20,11 @@ function About() {
       <div className="row">
         <div className="column">
           <div className="card">
-            <div className="image" style={{ ...ashishStyle, height: "50%" }}></div>
+            <div className="image" style={{height: "50%" }}>
+              <img src ={imgA}/>
+            </div>
             <div className="container">
               <h2>Ashish Kumar Rajak</h2>
-              <p className="title">CEO & Founder</p>
               <p>Some text that describes me</p>
               <p>ashish@example.com</p>
             </div>
@@ -42,10 +33,11 @@ function About() {
 
         <div className="column">
           <div className="card">
-            <div className="image" style={{ ...adityStyle, height: "50%" }}></div>
+            <div className="image" style={{height: "50%" }}>
+              <img src ={imgB}/>
+            </div>
             <div className="container">
               <h2>Adity Shaw</h2>
-              <p className="title">C0-Founder</p>
               <p>Some text that describes me lorem ipsum ipsum lorem.</p>
               <p>adity@example.com</p>
             </div>
@@ -54,10 +46,11 @@ function About() {
 
         <div className="column">
           <div className="card">
-            <div className="image" style={{ ...rituStyle, height: "50%" }}></div>
+            <div className="image" style={{height: "50%" }}>
+              <img src ={imgC}/>
+            </div>
             <div className="container">
               <h2>Ritunath Dey</h2>
-              <p className="title">Developer</p>
               <p>Some text that describes me</p>
               <p>ritunathdey2001@gmail.com</p>
             </div>
